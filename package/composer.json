@@ -1,6 +1,5 @@
 {
     "name": "game/a-group-1",
-    "description": "this is rock paper sciscor game package",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -13,5 +12,8 @@
             "email": "yooseryvathana@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
 }
